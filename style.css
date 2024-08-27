@@ -76,19 +76,19 @@ body {
 }
 
 .navigation a {
-    color: #FFFFFF;
+    color: #fffffa;
     text-decoration: none;
     font-size: 14px;
 }
 
 .navigation .cta {
     padding: 5px 15px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #fffffa;
     border-radius: 20px;
 }
 
 .navigation .cta:hover {
-    background-color: #FFFFFF;
+    background-color: #fffffa;
     color: #191A19;
 }
 
@@ -105,12 +105,13 @@ body {
 
 .left-content {
     max-width: 50%;
-    padding-left: 60px;
+    padding-left: 80px;
+    padding-bottom: 50px;
 }
 
 .left-content h1 {
     font-size: 36px;
-    color: #FFFFFF;
+    color: #fffffa;
     margin-bottom: 20px;
 }
 
@@ -146,12 +147,15 @@ body {
 }
 
 .cta-primary:hover, .cta-secondary:hover {
-    opacity: 0.8;
+    background-color: #fffffa;
+    color: #191A19;
 }
 
 .right-content img {
+    width: 400px;
+    height: 400px;
     max-width: 100%;
-    border-radius: 12px;
+    padding-right: 60px;
 }
 
 /* Bento box styling */
