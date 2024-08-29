@@ -26,7 +26,7 @@ section {
 /* Make the color line fixed at the top */
 .color-line {
     position: fixed;
-    height: 5px;
+    height: 2px;
     background: linear-gradient(90deg, #FFDD3A 0%, #FF3FE0 10%, #64FFFF 25%, #E7FF64 40%, #FFE03C 50%, #FF3FE0 60%, #64FFFF 75%, #E7FF64 90%, #FFDD3A 100%);
     background-size: 200% 100%;
     -webkit-animation: colorLineMovement 2.5s linear infinite;
@@ -55,7 +55,7 @@ section {
     height: 65px;
     background-color: #000000;
     position: fixed;
-    top: 5px; /* Place it just below the color line */
+    top: 2px; /* Place it just below the color line */
     padding: 0 40px;
     z-index: 999; /* Ensures it's above other content but below the color line */
 }
@@ -179,7 +179,7 @@ position: relative;
 .left-content h1 {
     font-size: 36px;
     color: #fffffa;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .left-content p {
@@ -193,6 +193,7 @@ position: relative;
 .cta-buttons {
     display: flex;
     gap: 20px;
+    padding-top: 30px;
 }
 
 .cta-primary, .cta-secondary {
@@ -251,7 +252,7 @@ position: relative;
 
 
 .box:hover {
-    animation: slowVibrate 1.5s ease-in-out infinite;
+    animation: slowVibrate 2s ease-in-out infinite;
 }
 
 @keyframes slowVibrate {
@@ -287,7 +288,7 @@ position: relative;
     margin: 0;
 }
 
-.text-content h2 {
+.text-content {
     font-size: 16px;
     margin: 5px 0 0;
 }
